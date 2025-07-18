@@ -1,1 +1,37 @@
-# SASS-weather-card-app
+Project Overview: Weather Card UI
+This project presents a responsive weather card UI, showing current weather, location, and a 4-day forecast.
+
+Tools & Technologies Used
+HTML: Structured the card with sections for current weather and forecast.
+
+SCSS (compiled to CSS):
+
+Modular SCSS architecture: \_variables.scss, \_mixins.scss, \_common.scss, \_weather-card.scss.
+
+Compiled into style.css using a SCSS compiler with a style.css.map for debugging.
+
+FontAwesome: Used for weather icons like sun, cloud, and rain.
+
+Google Fonts: Poppins for clean typography.
+
+SCSS Development Strategy
+Variables: Defined common values like colors, spacing, and font settings.
+
+Mixins: Used for reusable style patterns like flexbox and border-radius.
+
+Common Styles: Applied base styles to body, headings, and reusable components (e.g., buttons).
+
+Component SCSS (\_weather-card.scss):
+
+Separated left-panel (location, temperature, weather type) and right-panel (status and daily forecast).
+
+Used nested SCSS and BEM-like structure for clear maintainability.
+
+Final Styling Features
+Flexbox layout: Responsive and space-efficient.
+
+Gradient buttons, rounded borders, and hover effects.
+
+Background image overlay for the left panel.
+
+Visual indicators for the current day (.active class).
